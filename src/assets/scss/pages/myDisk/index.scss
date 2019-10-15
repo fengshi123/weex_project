@@ -1,0 +1,26 @@
+@import '../../common/variables.scss';
+@import '../../common/mixin.scss';
+@import '../../common/extend.scss';
+.net-disk {
+  width: $screen-width;
+  @extend .position-ab-zero;
+  @include layout-flex(column, space-between);
+  &__header {
+    order: 0;
+  }
+  &__main {
+    @extend .position-ab-zero;
+    order: 1;
+    width: $screen-width;
+    @include layout-flex(column, strech);
+  }
+
+  &__footer {
+    order: 2;
+    position: fixed;
+    bottom: $circle-bottom-margin;
+    right: $circle-bottom-margin;
+    width: 100px;
+    @include layout-flex(row, flex-end);
+  }
+}

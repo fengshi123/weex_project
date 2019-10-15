@@ -1,0 +1,33 @@
+.home {
+    &__bg{
+       width:750px;
+       height:400px
+    }
+    &__minibar-mid {
+      font-size: 40px;
+      color: #fff;
+    }
+  
+    &__box {
+      flex-direction: row;
+      width:750px;
+      &-item{
+        width: 160px;
+        height: 180px;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        color:red
+      }
+      &-icon{
+        width: 200px;
+        height: 150px;
+      }
+      &-text{
+        color: #777;
+        font-size: 30px;
+      }
+    }
+  }

@@ -1,0 +1,103 @@
+@import '../../common/variables.scss';
+.Qs{
+    &__all{
+        width: 720px;
+        height: 1250px;
+        margin-top: 20px;
+        margin-left: 20px;
+        background-color: #e4e4e3;
+    }
+        
+    &__property{
+        width: 700px;
+        background-color: #fcfff0;
+        padding: 20px;
+        margin-left: 10px;
+        margin-top:10px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__label{
+        width: 10px;
+        height: 50px;
+        background-color: #727a4f;
+    }
+
+    &__type{
+        margin-left: 10px;
+        font-size: $main-font-size;
+    }
+
+    &__question_id{
+        position: absolute;
+        right: 45px;
+        top: 20px;
+        font-size: $header-font-size;
+    }
+
+    &__sum{
+        position: absolute;
+        right: 15px;
+        top: 30px;
+        color: $color-gray;
+        font-size: 30px;
+    }    
+
+    &__content{
+        font-size: 60px;
+        background-color: $color-whitegray;
+        margin-top: 20px;
+    }
+
+    &__problem{
+        color: #636363;
+        height: 100px;
+        font-size: $main-font-size;
+        margin-top: 20px;
+    }
+
+    &__img{
+        width:700px;
+        height:$image-height;
+        margin-top: 10px;
+    }
+
+    &__input{
+       background-color: $color-white;
+       padding-left: 10px;
+       border-width: $border-width;
+       height: $input-height;
+       width: 700px;
+       font-size: $input-font-size;
+       border-radius: $border-radius;
+       margin-top: 20px;
+       margin-left: 10px;
+    }
+
+    &__answer {
+        margin-top: 10px;
+        flex-direction: row;
+        height: 100px;
+    }
+    
+    &__text{
+        font-size: $main-font-size;
+        color: #ff0000;
+        margin-left: 15px;
+    }
+
+    &__wrongIcon{
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        color: #ff0000;
+    }
+    
+    &__rightIcon{
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        color: #1eee0b;
+    }
+}

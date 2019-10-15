@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echarts</title>
+</head>
+<script src="../js/echarts.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/examStatistics.js"></script>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 400px;height: 400px;"></div>
+    <script type="text/javascript">
+        var exma_id = GetQueryString('exam_id');
+        var token = GetQueryString('token');
+        var questionLength = GetQueryString('questionLength');
+        var userSum = GetQueryString('userSum');
+        var reqUrl = '/exam/queryScoreById?exam_id='+exma_id+'&questionLength='+questionLength+'&userSum='+userSum;
+        xhrGetRequest(reqUrl,token,examStatistics)
+    </script>
+</body>
+</html>

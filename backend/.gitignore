@@ -1,0 +1,6 @@
+node_modules
+log
+public/upload
+public/exam
+user_disk
+npm-debug.log

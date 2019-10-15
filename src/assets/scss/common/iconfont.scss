@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "iconfontListenDisk";
+  src: url('/src/assets/font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+.iconfont {
+  font-family: 'iconfontListenDisk';
+  font-size: 42px;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

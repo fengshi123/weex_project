@@ -1,0 +1,14 @@
+.dialog-module {
+  &__content {
+    &--input {
+      height: 80px;
+      font-size: 32px;
+      line-height: 80px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 10px;
+      border-width: 1px;
+    }
+
+  }
+}

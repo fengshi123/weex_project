@@ -1,0 +1,8 @@
+@import '../../common/variables.scss';
+.file-detail {
+  &__img {
+    position: absolute;
+    width: $screen-width;
+    height: 800px;
+  }
+}

@@ -1,0 +1,7 @@
+@import '../common/variables.scss';
+.file-mask {
+  &--img {
+    width: $screen-width;
+    height: 800px;
+  }
+}

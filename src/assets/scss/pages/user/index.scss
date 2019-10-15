@@ -1,0 +1,28 @@
+@import '../../common/variables.scss';
+.user{
+    &__head {
+        flex-direction: row;
+        align-items: center;
+        margin: 20px;
+        // border-bottom-style:dotted;
+        // border-bottom-width:5px;
+    }
+    &__info{
+        margin-left: 40px;
+    }
+    &__avatar {
+        width:160px;
+        height:200px;
+    }
+    &__name {
+        font-size: 50px;
+        height: 80px;
+        line-height: 80px;
+
+    }
+    &__sex{
+        font-size: 30px;
+        color: #999;
+    }
+}
+ 

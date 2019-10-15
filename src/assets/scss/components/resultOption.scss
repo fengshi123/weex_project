@@ -1,0 +1,30 @@
+@import '../common/variables.scss';
+.resultOp {
+  &__options {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__check {
+    width: 72px;
+    height: 72px;
+  }
+
+  &__input--option {
+    width: 520px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#3eb4ff;
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 28px; 
+    margin-right: 30px;
+    color: #666;
+ }
+
+ &__text{
+  font-size: $exam-font-size;
+  color: #666;
+ }
+}

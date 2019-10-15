@@ -1,0 +1,5 @@
+@mixin layout-flex($direc, $jc) {
+  flex-direction: $direc;
+  justify-content: $jc;
+  align-items: center;
+}

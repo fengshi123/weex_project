@@ -1,0 +1,53 @@
+@import '../../common/variables.scss';
+.exam{
+    &__list {
+        flex:1;
+    }
+    
+    &__item {
+        width: 740px;
+        border-bottom-width: $border-width;
+        border-bottom-color: $color-whitegray;
+        height: 100px;
+        padding:20px;
+        flex-direction: row;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    &__icon{
+        width: 100px;
+        height: 100px;    
+    }
+
+    &__iconf{
+        width: 100px;
+        height: 100px;
+        opacity: 0.5;  
+    }
+
+    &__time{
+        font-size: 30px;
+        color: #d6d6d6;
+        position: absolute;
+        right: 0px;
+    }
+
+    &__name{
+        font-size: $main-font-size;
+        margin-left: 15px;
+    }
+
+    &__namef{
+        color: #afafaf;
+        font-size: $main-font-size;
+        margin-left: 15px;
+    }
+
+    &__finished{
+        color: #ff0000;
+        font-size: 28px;
+        margin-left: 15px;
+    }
+ }
+ 

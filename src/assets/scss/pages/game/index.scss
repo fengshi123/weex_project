@@ -1,0 +1,38 @@
+@import '../../common/variables.scss';
+@import '../../common/extend.scss';
+@import '../../common/mixin.scss';
+@import '../../common/iconfont.scss';
+.easy-moment {
+  width: $screen-width;
+  @include layout-flex(column, center);
+
+  &__text {
+    font-size: $main-font-size;
+    color: $color-white;
+    text-align: center;
+  }
+
+  &__refresh,
+  &__play {
+    font-size: 60px;
+    top: 20px;
+  }
+
+  &__redBag {
+    width: $redBag-size;
+    height: $redBag-size;
+    border-radius: $redBag-size;
+    background-color: $color-red;
+    line-height: 90px;
+    padding-top: 10px;
+    @include layout-flex(row, center);
+  }
+  &__end,
+  &__begin {
+    width: 750px;
+    @extend .position-ab-zero;
+    background-color: #850B0B;
+    opacity: 0.7;
+    @include layout-flex(column, center);
+  }
+}

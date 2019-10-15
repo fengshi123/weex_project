@@ -1,0 +1,21 @@
+.userCell {
+  &__body{
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+  &__image {
+    width:60px;
+    height:60px;
+  }
+  &__title{
+    font-size: 30px;
+    height:60px;
+    line-height: 60px;
+    color: #666;
+    margin-left: 30px;
+  }
+}
+.cell-indent{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}

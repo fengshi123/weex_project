@@ -1,0 +1,15 @@
+@import '../common/variables.scss';
+.handle-popup {
+  &__main {
+    &--item {
+      width: $screen-width;
+      height: $header-height;
+      font-size: $main-font-size;
+      padding: 20px !important;
+      line-height: 60px;
+      border-bottom-width: $border-width;
+      border-bottom-style: solid;
+      border-bottom-color: $border-color;
+    }
+  }
+}

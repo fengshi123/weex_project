@@ -1,0 +1,60 @@
+@import '../../common/iconfont.scss';
+@import '../../common/mixin.scss';
+@import '../../common/variables.scss';
+@import '../../common/extend.scss';
+.files-list {
+  @include layout-flex(column, strech);
+  &__wrp {
+    width: $screen-width;
+    margin-top: 100px;
+    @extend .position-ab-zero;
+  }
+
+  &--refreshTip {
+    width: $screen-width;
+    text-align: center;
+  }
+
+  &--indicator {
+    margin-top: 16px;
+    height: 40px;
+    width: 40px;
+    color: $color-main;
+  }
+
+  &__main {
+    width: $screen-width;
+    margin-top: 100px;
+    @extend .position-ab-zero;
+  }
+
+  &__content {
+    width: $screen-width;
+    height: 90px;
+    padding: 20px;
+    @include layout-flex(row, space-between);
+
+    &--icon {
+      width: $fileIcon-size;
+      height: $fileIcon-size;
+    }
+
+    &--pre {
+      @include layout-flex(row, space-start);
+    }
+
+    &--name {
+      width: 600px;
+      height: 90px;
+      line-height: 90px;
+      font-size: $main-font-size;
+      lines: 1;
+      color: $color-gray;
+      text-overflow: ellipsis;
+    }
+
+    &--more {
+      color: $color-gray;
+    }
+  }
+}

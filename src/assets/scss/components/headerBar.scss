@@ -1,0 +1,27 @@
+@import '../common/variables.scss';
+@import '../common/mixin.scss';
+.header-bar {
+  position: fixed;
+  top: 0;
+  width: $screen-width;
+  height: $header-height;
+  background-color: $color-main;
+  padding-left: 40px;
+  padding-right: 20px;
+  @include layout-flex(row, space-between);
+
+  &--back,
+  &--name {
+    white-space: nowrap;
+    color: $color-white;
+    font-size: $header-font-size;
+  }
+
+  &--back {
+    margin-top: 48px;
+  }
+
+  &--name {
+    text-align: center;
+  }
+}

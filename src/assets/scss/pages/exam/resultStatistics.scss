@@ -1,0 +1,7 @@
+@import '../../common/variables.scss';
+.result{
+    &__id{
+        font-size: $main-font-size;
+        margin-left: 15px;
+    }
+}
